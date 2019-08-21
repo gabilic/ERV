@@ -1,0 +1,65 @@
+table {
+  border-collapse: collapse;
+  font-family: sans-serif;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #63a4ff;
+  padding: 8px;
+  padding-left: 30px;
+}
+
+th {
+  background-color: #1976d2;
+  color: #fff;
+  cursor: auto;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #e1f5fe;
+}
+
+#records, .report {
+  table-layout: fixed;
+}
+
+#records tr th, .report tr th {
+  width: 50px;
+}
+
+#records tr th:nth-child(n+2):nth-child(-n+4),
+.report tr th:nth-child(n+3):nth-child(-n+5) {
+  width: 100px;
+}
+
+.records-table {
+  margin-bottom: 30px;
+  max-width: 62em;
+  overflow-x: scroll;
+}
+
+.report tr td:nth-child(2), .report tr th:nth-child(2) {
+  display: none;
+  visibility: hidden;
+}
+
+.report tr th:first-child {
+  width: 90px;
+}
+
+.selectable tr {
+  cursor: pointer;
+}
+
+.selectable tr:hover {
+  background-color: #b3e5fc;
+}
+
+.selected {
+  background-color: #81d4fa!important;
+}

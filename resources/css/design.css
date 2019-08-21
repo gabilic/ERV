@@ -1,0 +1,105 @@
+body {
+  background: #ecf0f1;
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+
+h2 {
+  color: #005cb2;
+  font-size: 1.7em;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-weight: normal;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+input {
+  font-family: sans-serif;
+  width: 150px;
+}
+
+p {
+  color: #666;
+}
+
+.button {
+  background-color: #1976d2;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 20px;
+  min-width: 150px;
+  padding: 15px 32px;
+  text-align: center;
+}
+
+.button:disabled {
+  background-color: #81d4fa;
+  color: #e1f5fe;
+  cursor: auto;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.card {
+	background: #fff;
+  box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+  color: #000;
+  display: flex;
+	margin-bottom: 2em;
+}
+
+.card-content {
+	padding: 1.4em;
+  width: 100%;
+}
+
+.card-content h2 {
+  font-weight: normal;
+  margin-bottom: .5em;
+	margin-top: 0;
+}
+
+.card-content p {
+	font-size: 95%;
+}
+
+.centered {
+  margin: 0 auto;
+  max-width: 65em;
+  padding: 0 1em;
+}
+
+.header-style {
+  background: #1976d2;
+	box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+}
+
+.narrow {
+  padding-left: 5em;
+  padding-right: 5em;
+}
+
+.section-content {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: -1em;
+}
+
+.site-title {
+  color: #fff;
+  font-size: 2em;
+  font-weight: 300;
+  margin: 0 0 1em;
+  padding: 1em 0;
+  text-align: center;
+}
